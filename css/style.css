@@ -7,32 +7,30 @@
 
  body { 
     font-family: Arial, sans-serif; 
-    background-color: #f5f9fc; 
+    background-color: #1f4959; 
 }
 .header { 
     width: 100%; 
-    background-color: white; 
+    background-color: #1f4959; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar {
-     max-width: 1400px; 
-     margin: auto; padding: 15px 30px; 
+    background-color: #5c7c89;
+     max-width: 2000px; 
+     margin: auto; 
+     padding: 15px 30px; 
      display: flex; 
      align-items: center; 
      gap: 25px; 
+     justify-content: space-between;
 }
 
 .logo {
      flex-shrink: 0;
+     font-size: 25px;
+     font-weight: bold;
 } 
-
-.logo a { 
-    text-decoration: none; 
-    color: #0088cc; 
-    font-size: 25px; 
-    font-weight: bold; 
-}
 
 .nav-links { 
     display: flex; 
@@ -45,12 +43,12 @@
 
 .nav-links a { 
     text-decoration: none; 
-    color: #333; 
+    color: #252525; 
     font-size: 15px; 
     font-weight: 500; 
 } 
 
-.nav-links a:hover { color: #0088cc; 
+.nav-links a:hover { color: #0a4461; 
 }
 
 .search-box { 
@@ -74,13 +72,13 @@
 .search-box button { 
     padding: 10px 12px; 
     border: none; 
-    background-color: #0088cc; 
+    background-color: #0a4461; 
     color: white; 
     cursor: pointer; 
 } 
 
 .search-box button:hover { 
-    background-color: #006fa6; 
+    background-color: #0a4461; 
 }
 
 .my-trips { 
@@ -95,7 +93,7 @@
 } 
 
 .my-trips a:hover { 
-    color: #0088cc; 
+    color: #0a4461;
 }
 
 .buttons { 
@@ -105,7 +103,7 @@
 .btn { 
     display: inline-block; 
     padding: 10px 15px; 
-    background-color: #0088cc; 
+    background-color: #0a4461; 
     color: white; 
     border-radius: 6px; 
     text-decoration: none; 
@@ -116,7 +114,7 @@
 } 
 
 .btn:hover { 
-    background-color: #006fa6; 
+    background-color: #0a4461; 
 }
 .menu-btn { 
     display: none; 
